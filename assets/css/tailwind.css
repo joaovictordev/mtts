@@ -946,8 +946,8 @@ body {
   height: 2.75rem;
 }
 
-.h-16{
-  height: 4rem;
+.h-12{
+  height: 3rem;
 }
 
 .h-20{
@@ -1120,14 +1120,6 @@ body {
 
 .max-w-full{
   max-width: 100%;
-}
-
-.max-w-\[100px\]{
-  max-width: 100px;
-}
-
-.flex-1{
-  flex: 1 1 0%;
 }
 
 .-translate-y-1\/2{
@@ -1491,11 +1483,6 @@ body {
 
 .stroke-current{
   stroke: currentColor;
-}
-
-.object-contain{
-  -o-object-fit: contain;
-     object-fit: contain;
 }
 
 .object-cover{
