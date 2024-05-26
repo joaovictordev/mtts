@@ -1644,11 +1644,6 @@ body {
   padding-bottom: 6px;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -1671,6 +1666,10 @@ body {
 
 .pb-5{
   padding-bottom: 1.25rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
 }
 
 .pb-8{
@@ -1711,10 +1710,6 @@ body {
 
 .pt-\[120px\]{
   padding-top: 120px;
-}
-
-.pb-7{
-  padding-bottom: 1.75rem;
 }
 
 .text-left{
@@ -2609,24 +2604,24 @@ body {
     padding: 60px;
   }
 
-  .md\:px-\[60px\]{
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-
-  .md\:py-\[120px\]{
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
   .md\:px-6{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 
+  .md\:px-\[60px\]{
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   .md\:py-10{
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:py-\[120px\]{
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .md\:pt-\[130px\]{
@@ -2753,6 +2748,10 @@ body {
     display: none;
   }
 
+  .lg\:h-20{
+    height: 5rem;
+  }
+
   .lg\:h-\[225px\]{
     height: 225px;
   }
@@ -2767,10 +2766,6 @@ body {
 
   .lg\:h-\[500px\]{
     height: 500px;
-  }
-
-  .lg\:h-20{
-    height: 5rem;
   }
 
   .lg\:w-1\/2{
@@ -2817,12 +2812,12 @@ body {
     width: 100%;
   }
 
-  .lg\:max-w-full{
-    max-width: 100%;
-  }
-
   .lg\:max-w-\[80px\]{
     max-width: 80px;
+  }
+
+  .lg\:max-w-full{
+    max-width: 100%;
   }
 
   .lg\:border-0{
@@ -2907,6 +2902,10 @@ body {
     padding-bottom: 90px;
   }
 
+  .lg\:pb-14{
+    padding-bottom: 3.5rem;
+  }
+
   .lg\:pb-20{
     padding-bottom: 5rem;
   }
@@ -2945,10 +2944,6 @@ body {
 
   .lg\:pt-\[160px\]{
     padding-top: 160px;
-  }
-
-  .lg\:pb-14{
-    padding-bottom: 3.5rem;
   }
 
   .lg\:text-\[42px\]{
